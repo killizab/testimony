@@ -2,14 +2,10 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Рецепт</title>
+  <title>Bootstrap</title>
  </head>
  <body>
 <h1>Борщ</h1>
-<div class="pull-right bg-info" style="width: 20em; padding: 10px;">
-  <h2><small>Хозяйке на заметку</small></h2>
-  <p>Борщ получится вкуснее, если добавить в него немного соли.</p>
-</div>
 <p>
 Вам понадобится:
 <ul>
@@ -17,7 +13,7 @@
     <li>Морковка</li>
     <li>Свекла</li>
     <li>Мясо</li>
-	    <li>Приборы
+	    <li>Приборы:
         <ul>
             <li>Ложка</li> 
             <li>Нож</li> 
@@ -26,6 +22,10 @@
     </li>
 </ul>
 </p>
+<div class="pull-right bg-info" style="width: 20em; padding: 10px;">
+  <h2><small>Хозяйке на заметку</small></h2>
+  <p>Борщ получится вкуснее, если добавить в него немного уксуса.</p>
+</div>
 <p>Мясо отварить до готовности. Промыть свеклу, очистить, 
   нарезать соломкой и тушить с помидорами до полуготовности.</p>
   <p>Бульон процедить, мясо нарезать кусочками. В бульон добавить 
@@ -35,5 +35,35 @@
   специи и довести до готовности.</p>
 <p>Готовому борщу дать настояться в течение 20-25 минут. 
   При подаче к столу добавить сметану, мясо, зелень.</p>
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email от кого</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Пример списка</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Пример другого списка</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Комментарий</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
   </body>
 </html> 
